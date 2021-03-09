@@ -7,14 +7,13 @@
 .box{
     margin-top: 20px;
     transition-property: width height font-size;
-    transition-duration: 2s;
+    transition-duration: 1s;
     transition-delay: 0s;
     transition-timing-function: linear;
 }
 
 body{
-    width: 50%;
-    height: 100%;
+    width: 70%;
     margin: auto;
     display: flex;
     flex-direction: column;
@@ -27,8 +26,8 @@ body{
 
 .profile-header{
     width: 600px;
-    font-size: 30px;
     padding: 50px;
+    font-size: 30px;
 }
 
 .profile-picture img{
@@ -37,10 +36,6 @@ body{
     border-style: solid;
     border-color: black;
     border-radius: 50%;
-    transition-property: width height;
-    transition-duration: 2s;
-    transition-delay: 0s;
-    transition-timing-function: linear;
 }
 
 .profile-picture img:hover{
@@ -48,14 +43,35 @@ body{
     height: 400px;
 }
 
+.profile-info{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  margin-top: 20px;
+  padding-left: 50px;
+}
+
+.profile-info p{
+  display: flex;
+  justify-content: flex-start;
+}
+
 .profile-hobbies{
-    align-self: center;
-    margin: 30px;
+  margin-top: 100px;
+}
+
+.profile-hobbies > p:hover{
+  font-size: 35px;
+}
+
+h2{
+  margin-top: 20px;
 }
 
 p{
   margin-top: 20px;
   font-size: 30px;
+  padding-left: 0px;
 }
 
 .container1{
@@ -64,37 +80,24 @@ p{
 }
 
 .profile-bio{
+  margin-top: 80px;
   padding: 20px;
-  transition-property: padding background-color border-radius;
-  transition-duration: 2s;
-  transition-delay: 0s;
-  transition-timing-function: linear;
-}
-
-.profile-bio:hover{
-  padding: 30px;
-  border-style: solid;
-  border-radius: 80px;
+  border-radius: 40px;
 }
 
 .profile-bio > p:hover{
-  font-size: 33px;
+  font-size: 35px;
 }
 
 .profile-social{
-  margin-bottom: 20px;
-}
-
-.social-icon{
-  font-size: 30px;
-
+  margin: 100px 0 100px 0;
 }
 
 .icon{
   padding: 10px;
   font-size: 40px;
-  margin-top: 70px;\
-
+  margin-top: 70px;
+  color: black;
 }
 
 .icon:hover{
