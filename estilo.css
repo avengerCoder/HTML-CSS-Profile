@@ -1,46 +1,46 @@
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .box{
-    margin-top: 20px;
-    transition-property: width height font-size;
-    transition-duration: 1s;
-    transition-delay: 0s;
-    transition-timing-function: linear;
+  margin-top: 20px;
+  transition-property: width height font-size;
+  transition-duration: 1s;
+  transition-delay: 0s;
+  transition-timing-function: linear;
 }
 
 body{
-    width: 70%;
-    margin: auto;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-items: center;
-    text-align: center;
-    font-family: 'Josefin Sans', sans-serif;
-    background-image: linear-gradient(175deg, #0086c0 0, #0085cc 3.33%, #0084d6 6.67%, #0081de 10%, #007ee4 13.33%, #007be7 16.67%, #0077e9 20%, #0071e8 23.33%, #006be5 26.67%, #4065df 30%, #685dd7 33.33%, #8354ce 36.67%, #984bc3 40%, #aa41b6 43.33%, #b836a8 46.67%, #c32b99 50%, #cb208a 53.33%, #d1177a 56.67%, #d5136a 60%, #d6165a 63.33%, #d51e4b 66.67%, #d2293c 70%, #ce332d 73.33%, #c73d1d 76.67%, #bf4706 80%, #b65000 83.33%, #ac5800 86.67%, #a15f00 90%, #946600 93.33%, #876b00 96.67%, #797000 100%);
+  width: 70%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+  background-image: linear-gradient(175deg, #0086c0 0, #0085cc 3.33%, #0084d6 6.67%, #0081de 10%, #007ee4 13.33%, #007be7 16.67%, #0077e9 20%, #0071e8 23.33%, #006be5 26.67%, #4065df 30%, #685dd7 33.33%, #8354ce 36.67%, #984bc3 40%, #aa41b6 43.33%, #b836a8 46.67%, #c32b99 50%, #cb208a 53.33%, #d1177a 56.67%, #d5136a 60%, #d6165a 63.33%, #d51e4b 66.67%, #d2293c 70%, #ce332d 73.33%, #c73d1d 76.67%, #bf4706 80%, #b65000 83.33%, #ac5800 86.67%, #a15f00 90%, #946600 93.33%, #876b00 96.67%, #797000 100%);
 }
 
 .profile-header{
-    width: 600px;
-    padding: 50px;
-    font-size: 30px;
+  width: 600px;
+  padding: 50px;
+  font-size: 30px;
 }
 
 .profile-picture img{
-    width: 250px;
-    height: 250px;
-    border-style: solid;
-    border-color: black;
-    border-radius: 50%;
+  width: 250px;
+  height: 250px;
+  border-style: solid;
+  border-color: black;
+  border-radius: 50%;
 }
 
 .profile-picture img:hover{
-    width: 400px;
-    height: 400px;
+  width: 400px;
+  height: 400px;
 }
 
 .profile-info{
@@ -103,3 +103,10 @@ p{
 .icon:hover{
   font-size: 60px;
 }
+
+@media screen and (max-width: 700px){
+  .container1{
+    flex-direction: column;
+  }
+}
+
