@@ -22,7 +22,9 @@ body{
   text-align: center;
   font-family: 'Josefin Sans', sans-serif;
   background-color: #FBAB7E;
-  background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+  background-image: linear-gradient(62deg, #eb8d58 0%, #F7CE68 100%);
+  
+  
 
 }
 
@@ -43,6 +45,13 @@ body{
 .profile-picture img:hover{
   width: 400px;
   height: 400px;
+  animation: spin 10s linear infinite;
+}
+
+@keyframes spin{
+  to{
+    transform: rotate(360deg);
+  }
 }
 
 .profile-info{
@@ -110,8 +119,16 @@ p{
   .container1{
     flex-direction: column;
   }
+  
   body{
-    width: 15%;
+    width: 100%; 
+    display: flex;
+    justify-content: center;
+  }
+
+  .icon{
+    display: flex;
+    flex-direction: row;
   }
 }
 
